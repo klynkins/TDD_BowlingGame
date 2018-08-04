@@ -58,7 +58,7 @@ void testPerfectGame()
 {
     bowlGameInit();
     rollMany(12, 10);
-    assert(bowlGameScore() == 300 && "A perfect score is 300");
+    assert(bowlGameScore() == 300 && "Perfect score is 300");
 }
 
 void tests(void)
